@@ -25,3 +25,5 @@ RUN mkdir /opt && \
     chown -R root:root sickbeard_mp4_automator && \
     chmod -R a+w sickbeard_mp4_automator && \
     rm -rf /tmp/*
+
+VOLUME /config /downloads
